@@ -7,6 +7,23 @@
 # How to use:
 # {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
 
+# Polish
+# -------
+pl: &DEFAULT_PL
+  nav:
+    - title: "Usługi"
+      section: services
+    - title: "Portfolio"
+      section: portfolio
+    - title: "Katalog"
+      section: catalog
+    - title: "Zespół"
+      section: team
+    - title: "Kontakt"
+      section: contact
+pl-PL:
+  <<: *DEFAULT_PL
+
 # English (default)
 # -----------------
 en: &DEFAULT_EN
@@ -29,20 +46,3 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-# Polish
-# -------
-pl: &DEFAULT_PL
-  nav:
-    - title: "Usługi"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "Katalog"
-      section: catalog
-    - title: "Zespół"
-      section: team
-    - title: "Kontakt"
-      section: contact
-pl-PL:
-  <<: *DEFAULT_PL
