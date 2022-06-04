@@ -23,28 +23,28 @@ pl: &DEFAULT_PL
     list:
       - title: "Okna"
         desc: "PCV, ALU, drewno"
-        icon: fa-regular fa-window-maximize #find more at https://fontawesome.com/icons
+        icon: fa-solid fa-border-all #find more at https://fontawesome.com/icons
       - title: "Rolety"
         desc: "Natynkowe, nadstawne i podtynkowe"
-        icon: fas fa-laptop
+        icon: fa-solid fa-align-justify
       - title: "Drzwi"
         desc: "zewnętrzne: stalowe, aluminiowe pcv i wewnętrzne "
-        icon: fab fa-markdown
+        icon: fa-solid fa-door-closed
       - title: "Parapety"
         desc: "zewnętrzne i wewnętrzne"
-        icon: fab fa-markdown
+        icon: fa-solid fa-laptop
       - title: "Bramy segmentowe"
         desc:
-        icon: fab fa-markdown
+        icon: fa-solid fa-torii-gate
       - title: "Roletki ozdobne do okien i inne"
         desc:
-        icon: fab fa-markdown
+        icon: fa-solid fa-map
       - title: "Moskitiery"
         desc:
-        icon: fab fa-markdown
+        icon: fa-solid fa-chess-board
       - title: "Montaż"
         desc:
-        icon: fab fa-markdown
+        icon: fa-solid fa-hammer
 
   portfolio:
     title: "Portfolio"
@@ -130,18 +130,18 @@ pl: &DEFAULT_PL
 
   contact:
     title: "Kontakt"
-    text: "Lorem ipsum or call 123456789"
+    text: "Napisz do nas lub zadzwoń +48 533-909-959"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
+    name: "Nazwa*"
+    name-validation: "Proszę wpisać swoje imię."
     email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
+    email-validation: "Proszę wpisać swój adres email."
+    phone: "Numer telefonu"
+    phone-validation: "Proszę wpisać swój numer telefonu."
+    message: "Wiadomość*"
+    message-validation: "Proszę wpisać treść wiadomości."
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "Wyślij"
 
   footer:
     legal: "Privacy Policy"
