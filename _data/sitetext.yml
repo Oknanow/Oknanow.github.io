@@ -18,17 +18,32 @@ pl: &DEFAULT_PL
 
   services:
     title: "Usługi"
-    text: "Lorem ipsum"
+    text:
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Okna"
+        desc: "PCV, ALU, drewno"
+        icon: fa-regular fa-window-maximize #find more at https://fontawesome.com/icons
+      - title: "Rolety"
+        desc: "Natynkowe, nadstawne i podtynkowe"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Drzwi"
+        desc: "zewnętrzne: stalowe, aluminiowe pcv i wewnętrzne "
+        icon: fab fa-markdown
+      - title: "Parapety"
+        desc: "zewnętrzne i wewnętrzne"
+        icon: fab fa-markdown
+      - title: "Bramy segmentowe"
+        desc:
+        icon: fab fa-markdown
+      - title: "Roletki ozdobne do okien i inne"
+        desc:
+        icon: fab fa-markdown
+      - title: "Moskitiery"
+        desc:
+        icon: fab fa-markdown
+      - title: "Montaż"
+        desc:
         icon: fab fa-markdown
 
   portfolio:
@@ -88,8 +103,8 @@ pl: &DEFAULT_PL
 
   team:
     title: "Nasz zespół"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: "Nasza praktyka i doświadczenie pozwalają na przedstawienie Państwu całego zakresu naszej działalności, mając na uwadze wysoką jakość oferowanych towarów i usług w dogodnych dla Klienta terminach, jak również obniżając koszty do niezbędnego minimum."
+    subtext: Firma PHUR Bogdan Nowak powstała w 1990 roku. W pierwszym okresie działalności firma funkcjonowała jedynie w branży remontowej. W 2011 roku postanowiono rozszerzyć swoją działalność o stolarkę otworową. W swojej historii możemy pochwalić się wieloma ciekawymi realizacjami począwszy od obiektów handlowych a skończywszy na budownictwie indywidualnym.
     section: team
     people:
       - name: "Adam Baranowski"
