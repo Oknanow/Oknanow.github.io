@@ -18,9 +18,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title:
-email: jaroslaw.kurdzieko@gmail.com #this is also the email contact forms will go to
-description: ""
-author: Adam Baranowski
+email: abaranowski92@gmail.com #this is also the email contact forms will go to
+description: "OknaNow - profesjonalnie o oknach PCV, drewnianych, aluminiowych, bramach i roletach"
+keywords: "oknanow, okna, pcv, drzwi, bramy, rolet, moskitiery"
+author: OknaNow
 logo: #optional, defaults to site title
   path: assets\img\title.png
   #height: 60 #height in px, defaults to 52px
