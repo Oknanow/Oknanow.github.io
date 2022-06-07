@@ -42,5 +42,6 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
