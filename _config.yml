@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title:
+title: OknaNow
 email: abaranowski92@gmail.com #this is also the email contact forms will go to
 description: "OknaNow - profesjonalnie o oknach PCV, drewnianych, aluminiowych, bramach i roletach"
 keywords: "oknanow, okna, pcv, drzwi, bramy, rolet, moskitiery"
