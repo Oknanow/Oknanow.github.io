@@ -13,13 +13,13 @@ pl: &DEFAULT_PL
   header:
     title:
     text: Nowy widok Twoich możliwości
-    button: Poznaj Nas
-    buttonlink: "#services"
+    button: Oferta
+    buttonlink: "#offers"
 
-  services:
-    title: "Usługi"
+  offers:
+    title: "Oferta"
     text:
-    section: services
+    section: offers
     list:
       - title: "Okna"
         desc: "PCV, ALU, drewno"
@@ -46,60 +46,34 @@ pl: &DEFAULT_PL
         desc:
         icon: fa-solid fa-hammer
 
+  valuation:
+    title: "Wyceny"
+    text: "Już niebawem udostępnimy możliwość wykonania samodzilnej wyceny planowaje realizacji."
+    section: valuation
+
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Realizacje"
+    text: ""
     section: portfolio
     closebutton: "Close Project"
-
-  catalog:
-    title: "Katalog"
-    text: "Lorem ipsum timeline"
-    section: catalog
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
 
   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      # - title: "envato"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/envato.jpg
+      # - title: "designmodo"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+      #   url: https://github.com/raviriley/agency-jekyll-theme
+      #   logo: assets/img/clients/creative-market.jpg
 
   team:
     title: "Nasz zespół"
@@ -107,26 +81,29 @@ pl: &DEFAULT_PL
     subtext: Firma PHUR Bogdan Nowak powstała w 1990 roku. W pierwszym okresie działalności firma funkcjonowała jedynie w branży remontowej. W 2011 roku postanowiono rozszerzyć swoją działalność o stolarkę otworową. W swojej historii możemy pochwalić się wieloma ciekawymi realizacjami począwszy od obiektów handlowych a skończywszy na budownictwie indywidualnym.
     section: team
     people:
-      - name: "Adam Baranowski"
+      - name: "Bogdan Nowak"
         role: "Właściciel"
         image: assets/img/team/500x500.jpg
+        phone: "+48 501-048-973"
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Adrian Bednarski"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
+
+      - name: "Adam Baranowski"
+        role: "Przedstawiciel handlowy"
+        image: assets/img/team/500x500.jpg
+        phone: "+48 533-909-959 "
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
 
   contact:
     title: "Kontakt"
@@ -146,16 +123,16 @@ pl: &DEFAULT_PL
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
+      # - url: https://twitter.com
+      #   icon: "fab fa-twitter"
+      - url: https://www.facebook.com/oknanow
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      # - url: https://linkedin.com
+      #   icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+      #   icon: "fab fa-github"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
 pl-PL:
   <<: *DEFAULT_PL
 

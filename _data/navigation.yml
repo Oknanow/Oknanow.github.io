@@ -11,12 +11,12 @@
 # -------
 pl: &DEFAULT_PL
   nav:
-    - title: "Usługi"
-      section: services
-    - title: "Portfolio"
+    - title: "Oferta"
+      section: offers
+    - title: "Wyceny"
+      section: valuation
+    - title: "Realizacje"
       section: portfolio
-    - title: "Katalog"
-      section: catalog
     - title: "Zespół"
       section: team
     - title: "Kontakt"
