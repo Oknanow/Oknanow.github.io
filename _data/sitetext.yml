@@ -11,7 +11,7 @@
 # -------
 pl: &DEFAULT_PL
   header:
-    title:
+    title: Nasza praktyka i doświadczenie pozwalają na przedstawienie Państwu wysokiej jakości towary i usługi w dogodnych dla Klienta terminach, jak również obniżając koszty do niezbędnego minimum
     text: Nowy widok Twoich możliwości
     button: Oferta
     buttonlink: "#offers"
@@ -22,30 +22,23 @@ pl: &DEFAULT_PL
     section: offers
     list:
       - title: "Okna"
-        desc: "PCV, ALU, drewno"
+        desc: "PCV, ALU, DREWNO"
         icon: fa-solid fa-border-all #find more at https://fontawesome.com/icons
       - title: "Rolety"
-        desc: "Natynkowe, nadstawne i podtynkowe"
+        desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
         icon: fa-solid fa-align-justify
       - title: "Drzwi"
-        desc: "zewnętrzne: stalowe, aluminiowe pcv i wewnętrzne "
+        desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
         icon: fa-solid fa-door-closed
       - title: "Parapety"
-        desc: "zewnętrzne i wewnętrzne"
-        icon: fa-solid fa-laptop
+        desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
+        icon: fa-solid fa-ruler-horizontal fa-rotate-180
       - title: "Bramy segmentowe"
         desc:
-        icon: fa-solid fa-torii-gate
-      - title: "Roletki ozdobne do okien i inne"
+        icon: fa-solid fa-warehouse
+      - title: "Montaż i Serwis"
         desc:
-        icon: fa-solid fa-map
-      - title: "Moskitiery"
-        desc:
-        icon: fa-solid fa-chess-board
-      - title: "Montaż"
-        desc:
-        icon: fa-solid fa-hammer
-
+        icon: fa-solid fa-screwdriver-wrench
   valuation:
     title: "Wyceny"
     text: "Już niebawem udostępnimy możliwość wykonania samodzilnej wyceny planowaje realizacji."
