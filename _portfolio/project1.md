@@ -1,19 +1,17 @@
 ---
-title: Drzwi
+title: Okno
 subtitle:
-image: assets/img/portfolio/103067078_2669088553190931_3060103138741937783_n.jpg
-alt: Doors
+image: assets/img/portfolio/okno.jpg
+alt: Okno
 
 caption:
-  title: Drzwi
+  title: Okno
   subtitle:
-  thumbnail: assets/img/portfolio/103067078_2669088553190931_3060103138741937783_n.jpg
+  thumbnail: assets/img/portfolio/okno.jpg
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+Okno Classic 70 mm w kolorze białym w pakiecie 3-szybowym.
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- Data: 01.2022
