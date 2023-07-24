@@ -11,7 +11,7 @@
 # -------
 pl: &DEFAULT_PL
   header:
-    title: Nasza praktyka i doświadczenie pozwalają na przedstawienie Państwu wysokiej jakości towary i usługi w dogodnych dla Klienta terminach, jak również obniżając koszty do niezbędnego minimum
+    title: Nasza praktyka i doświadczenie pozwalają na przedstawienie Państwu wysokiej jakości towary i usługi w dogodnych dla Klienta terminach, jak również obniżając koszty do niezbędnego minimum.
     text: Nowy widok Twoich możliwości
     button: Oferta
     buttonlink: "#offers"
@@ -27,12 +27,12 @@ pl: &DEFAULT_PL
       - title: "Rolety"
         desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
         icon: fa-solid fa-align-justify
-      - title: "Drzwi"
-        desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
-        icon: fa-solid fa-door-closed
       - title: "Parapety"
         desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
         icon: fa-solid fa-ruler-horizontal fa-rotate-180
+      - title: "Drzwi"
+        desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
+        icon: fa-solid fa-door-closed
       - title: "Bramy segmentowe"
         desc:
         icon: fa-solid fa-warehouse
@@ -81,7 +81,7 @@ pl: &DEFAULT_PL
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://www.facebook.com/oknanow
             icon: fab fa-facebook-f
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
@@ -93,11 +93,22 @@ pl: &DEFAULT_PL
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
-          - url: https://facebook.com
+          - url: https://www.facebook.com/oknanow/
             icon: fab fa-facebook-f
           # - url: https://linkedin.com
           #   icon: fab fa-linkedin-in
 
+      - name: "Monika Mendel"
+        role: "Manager biura"
+        image: assets/img/team/500x500.jpg
+        phone: "+48 509-562-310"
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          - url: https://www.facebook.com/oknanow/
+            icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+          #   icon: fab fa-linkedin-in
   contact:
     title: "Kontakt"
     text: "Napisz do nas lub zadzwoń +48 533-909-959"

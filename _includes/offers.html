@@ -13,17 +13,21 @@
 	  
       <div class="row text-center">
 	  {% for offer in site.data.sitetext[site.locale].offers.list %}
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ offer.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="offer-heading">{{ offer.title | markdownify }}</h4>
-          {% if offer.desc %}<div class="text-muted">{{ offer.desc | markdownify }}</div>{% endif %}
+        <div class="col-md-4 offer-item">
+          <a class="offer-link" data-toggle="modal" href="#o{{ forloop.index }}">
+            
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ offer.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="offer-heading">{{ offer.title | markdownify }}</h4>
+            {% if offer.desc %}<div class="text-muted">{{ offer.desc | markdownify }}</div>{% endif %}
+          </a>
         </div>
 	  {% endfor %}
       </div>
 	  
     </div>
   </section>
+  {% include offers-modals.html %}
 <!-- End Offers -->
