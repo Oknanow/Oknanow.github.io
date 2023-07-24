@@ -1,0 +1,47 @@
+<!-- Offers Modals -->
+{% for offer in site.offers %}
+<div
+  class="offer-modal modal fade"
+  id="o{{ forloop.index }}"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">{{ offer.title }}</h2>
+              <p class="item-intro text-muted">{{ offer.subtitle }}</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="{{ offer.image }}"
+                alt="{{ offer.alt }}"
+              />
+              <p>{{ offer.content }}</p>
+              <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-times"></i>
+                {{ site.data.sitetext[site.locale].offers.closebutton |
+                default: "Close Offer" }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+<!-- End Offers Modals -->
