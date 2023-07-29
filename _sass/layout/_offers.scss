@@ -7,10 +7,15 @@
     text-transform: none;
     color: black;
   }
-
   .offer-item {
     right: 0;
     margin: 0 0 15px;
+    a:hover{
+      text-decoration: none;
+    }
+    a:active{
+      text-decoration: none;
+    }
     .offer-link {
       position: relative;
       display: block;
@@ -18,16 +23,35 @@
       margin: 0 auto;
       color: black;
       cursor: pointer;
-      .offer-hover {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        -webkit-transition: all ease 0.5s;
-        -moz-transition: all ease 0.5s;
-        transition: all ease 0.5s;
-        opacity: 0;
-        background: fade-out($primary, 0.1);
-        &:hover {
+      &:hover {
+        i {
+          color: $primary;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          transition: all ease 0.5s;
+        }
+        .text-primary{
+          color: white !important;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          transition: all ease 0.5s;
+        }
+        h4, div.text-muted{
+          color: white !important;
+          position: inherit;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          transition: all ease 0.5s;
+        }
+        .offer-hover {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          transition: all ease 0.5s;
+          opacity: 0;
+          background: fade-out($primary, 0.1);
           opacity: 1;
         }
         .offer-hover-content {
