@@ -20,6 +20,7 @@ pl: &DEFAULT_PL
     title: "Oferta"
     text:
     section: offers
+    closebutton: "Zamknij"
     list:
       - title: "Okna"
         desc: "PCV, ALU, DREWNO"
@@ -48,7 +49,7 @@ pl: &DEFAULT_PL
     title: "Realizacje"
     text: ""
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Zamknij"
 
   clients:
     section: clients
