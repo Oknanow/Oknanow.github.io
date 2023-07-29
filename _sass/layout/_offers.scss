@@ -85,8 +85,25 @@
     max-width: 100vw;
   }
   
-  .offer-content-text {
-    text-align: start;
+  .title{
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .article{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    .left-pane{
+      width: 30%;
+    }
+    .right-pane{
+      width: 70%;
+    }
+  }
+
+  .content-text {
+    text-align: left;
   }
 
   .modal-content {

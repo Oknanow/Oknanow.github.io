@@ -19,7 +19,7 @@ każdy parapet wykonywany jest pod indywidualny wymiar podany przez klienta
 </p>
 {:.list-inline}
 ##### MDF
-<img align="right"  src="assets/img/offers/parapety/Parapet_MDF.jpg">
+<img align="left"  src="assets/img/offers/parapety/Parapet_MDF.jpg">
 <p class="offer-content-text">
 MDF - jest produktem drewnopodobnym, powstałym w wyniku sprasowania włókien drzewnych z dodatkiem związków organicznych, łączonych i utwardzonych w warunkach wysokiego ciśnienia i temperatury. Płyta MDF jest wilgocioodporna. 
 maksymalna długość parapetów (w jednym elemencie): 250 cm
@@ -69,7 +69,7 @@ możliwość wykonania parapetu w dowolnym kolorze z palety RAL !
 
 {:.list-inline}
 ##### ALUMINIOWE
-<img align="right"  src="assets/img/offers/parapety/Parapet_ALU.jpg">
+<img align="left"  src="assets/img/offers/parapety/Parapet_ALU.jpg">
 <p class="offer-content-text">
 
 ALUMINIOWE - łączy w sobie unikalną kombinację pożądanych własności takich jak: niewielka masa, wysoka wytrzymałość, plastyczność, podatność na obróbkę czy wysoka odporność na korozję. W odróżnieniu od większości gatunków stali, glin nie kruszeje w niskich temperaturach lecz zwiększa swą wytrzymałość. Wysokiej jakości proszkowa powłoka malarska oraz klasyczny kształt gwarantują estetyczny wygląd i kompatybilność z mnogością typów elewacji.
