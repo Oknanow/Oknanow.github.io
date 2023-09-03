@@ -32,7 +32,7 @@ pl: &DEFAULT_PL
         desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
         icon: fa-solid fa-ruler-horizontal fa-rotate-180
       - title: "Drzwi"
-        desc: "ZEWNĘTRZNE I WEWNĘTRZNE"
+        desc: "ZEWNĘTRZNE"
         icon: fa-solid fa-door-closed
       - title: "Bramy segmentowe"
         desc:
@@ -72,7 +72,7 @@ pl: &DEFAULT_PL
   team:
     title: "Nasz zespół"
     text: "Nasza praktyka i doświadczenie pozwalają na przedstawienie Państwu całego zakresu naszej działalności, mając na uwadze wysoką jakość oferowanych towarów i usług w dogodnych dla Klienta terminach, jak również obniżając koszty do niezbędnego minimum."
-    subtext: Firma PHUR Bogdan Nowak powstała w 1990 roku. W pierwszym okresie działalności firma funkcjonowała jedynie w branży remontowej. W 2011 roku postanowiono rozszerzyć swoją działalność o stolarkę otworową. W swojej historii możemy pochwalić się wieloma ciekawymi realizacjami począwszy od obiektów handlowych a skończywszy na budownictwie indywidualnym.
+    subtext: Firma Okna Now Bogdan Nowak powstała w 1990 roku. W pierwszym okresie działalności firma funkcjonowała jedynie w branży remontowej. W 2011 roku postanowiono rozszerzyć swoją działalność o stolarkę otworową. W swojej historii możemy pochwalić się wieloma ciekawymi realizacjami począwszy od obiektów handlowych a skończywszy na budownictwie indywidualnym.
     section: team
     people:
       - name: "Bogdan Nowak"
@@ -102,7 +102,7 @@ pl: &DEFAULT_PL
       - name: "Monika Mendel"
         role: "Manager biura"
         image: assets/img/team/500x500.jpg
-        phone: "+48 509-562-310"
+        phone: "abaranowski92@gmail.com"
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
