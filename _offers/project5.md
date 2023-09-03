@@ -34,7 +34,7 @@ uszczelką EPDM.
     </div>
 </div>
 {:.list-inline}
-
+<h3> Bramy przemysłowe</h3> 
 <!-- <h5 class="title"> Bramy przemysłowe</h5> -->
 <div class="article"> 
     <div class="left-pane">
